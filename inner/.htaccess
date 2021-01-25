@@ -1,1 +1,2 @@
-e:\Users\AnSid\Documents\ПРОГРАММИРОВАНИЕ\My Progects\LS-VSC\.htaccess
+ErrorDocument 404 /err404.html
+DirectoryIndex index.html index.htm

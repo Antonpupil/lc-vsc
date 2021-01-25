@@ -1,1 +1,3 @@
-e:\Users\AnSid\Documents\ПРОГРАММИРОВАНИЕ\My Progects\LS-VSC\robots.txt
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /images/
