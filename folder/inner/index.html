@@ -14,8 +14,8 @@
         <section class="hero">
             <div class="container">
                 <header class="header">
-                    <a href ="/" class="logo">
-                        <img src="../../img/лого.png" alt="Logo-image" class="logo__img">
+                    <a href="/" class="logo">
+                        <img src="../../img/logo.png" alt="Logo-image" class="logo__img">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -24,15 +24,14 @@
                             <li class="menu__item"></li>
                             <a href="#" class="menu__link">Услуги</a>
                             <li class="menu__item"></li>
-                            <a href="#" class="menu__link">Отзывы</a>
-                        </ul>
-                        <address class="contacts">
-                            <a href="tel:+7 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__dropdown-title">График работы</div>
-                        </address>
+                            <a href="#" class="menu__link menu__link_last">Отзывы</a>
+                        </ul>                    
                     </nav>
+                    <address class="contacts">
+                        <a href="tel:+7 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__dropdown-title">График работы</div>
+                    </address>
                 </header>
-
                 <!-- <div class="hero__content">
                     <div class="hero__text-section">
                         <h1 class="hero__title">Авторские туры по Азии</h1>
@@ -40,34 +39,35 @@
                         <a href="#" class="btn">Подробнее</a>
                     </div>
                 </div> -->
-
             </div><!-- это контейнер -->
         </section>
         <section class="page-content">
             <!-- если потребуется aside или еще что-то -->
-            <section class="page-header">
-                <h1 class="page-content__title">Авторские туры по Азии</h1>
-                <p class="page-content__text">Открой для себя Азию</p>
-                <a class="page-content__btn uncommon-btn">
-                    <a href="#" class="page-content__link">Подробнее</a>
-                </a>
-            </section>
-            <section class="main">
+            <div class="page-header">
+                <div class="page-header__tittle-section">
+                    <h1 class="page-header__title">Авторские туры по Азии</h1>
+                    <h4 class="page-header__text">Открой для себя Азию</h4>
+                    <a class="page-header__btn uncommon-btn">
+                        <a href="#" class="page-header__link">Подробнее</a>
+                    </a>
+                </div>
+            </div>
+            <main class="main">
                 <section class="hot-tours">
                     <h2 class="hot-tours__title common-title">Горящие туры</h2>
                     <img src="" alt="fire" class="hot-tours__img">
                     <ul class="hot-tours__list">
                         <li class="hot-tours__item tours">
                             <div class="hot-tours__content tours__content">
-                                <img src="" alt="Thailand" class="tours__img">
+                                <img src="../../img/river.png" alt="Thailand" class="tours__img">
                                 <h3 class="tours__subtitle">Тайланд</h3>
                                 <div class="tours__icon">
                                     <div class="tours__period">
-                                        <img src="" alt="calendar" class="tours__period-img">
+                                        <img src="../../img/pool.png" alt="calendar" class="tours__period-img">
                                         <div class="tours__period-date">7-12 ночей</div>
                                     </div>
                                     <div class="tours__meal">
-                                        <img src="" alt="meal" class="tours__meal-img">
+                                        <img src="../../img/ocean.png" alt="meal" class="tours__meal-img">
                                         <div class="tours__meal-type">Завтраки</div>
                                     </div>
                                 </div>
@@ -161,11 +161,15 @@
                 </section>
                 <section class="about">
                     <div class="container">
-                        <div class="about__img1">
-                            <!-- картинка будет фоном -->
-                        </div>
-                        <div class="about__img2">
-                            <!-- картинка будет фоном -->
+                        <ul class="about_list">
+                            <li class="about__item">
+                                <img src="../../img/gates.png" alt="pic1" class="about__img1">
+                            </li>
+                            <li class="about__item">
+                                <img src="../../img/mountains.png" alt="pic1" class="about__img2">
+                            </li>
+                        </ul>
+                        <div class="about__text">
                             <h2 class="about__title common-title">О нас</h2>
                             <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
                                 сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а
@@ -176,11 +180,11 @@
                         </div>
                     </div>
                 </section>
-            </section>
+            </main>
         </section>
         <footer class="footer">
             <a class="logo footer-logo">
-                <img src="" alt="Logo" class="footer-logo__img">
+                <img src="../../img/logo.png" alt="Logo" class="footer-logo__img">
             </a>
             <nav class="menu footer-menu">
                 <ul class="menu__list footer-menu__list">
