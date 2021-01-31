@@ -17,21 +17,23 @@ body {
     margin: 0 auto;
     /* background: #001821; */
 }
+
 .container {
     position: relative;
     /* width: 100; */
     height: 1200px;
     /* display: inline-block; */
-    /* margin: 0 auto; */
-    background: url(../img/1.png) top center no-repeat;  
+    margin: 0 auto;
 }
-
+.hero {
+    background: url(../img/1.png) top center no-repeat;
+}
 .header {
     /* display: inline-block; */
     position: absolute;
     width: 1140px;
     height: 120px;
-    left: 390px;    
+    left: 390px;
 }
 
 .logo {
@@ -50,7 +52,8 @@ body {
     /* border: 1px solid yellow; */
 }
 
-.contacts__dropdown-title, .contacts {
+.contacts__dropdown-title,
+.contacts {
     position: absolute;
     right: 0;
 }
@@ -63,13 +66,56 @@ body {
     text-align: right;
 }
 
-a {
-    color: inherit;
+.hero__content {
+    position: absolute;
+    width: 511px;
+    height: 333px;
+    left: 390px;
+    top: 196px;
 }
+
+.hero__title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+.hero__subtitle {
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    top: 228px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.btn {
+    border-radius: 35px;
+    height: 55px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detailed-btn {
+    width: 168px;
+    background: #F5170E;
+    color: white;
+}
+
+.hero__btn {
+    position: absolute;
+    top: 278px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 ul li {
     list-style: none;
 }
@@ -84,9 +130,11 @@ ul li {
     padding: 0;
 }
 
-.contacts__phone, .menu__link {
+.contacts__phone,
+.menu__link {
     text-decoration: none;
 }
+
 .menu__link {
     margin-right: 50px;
 }
@@ -95,7 +143,8 @@ ul li {
     margin-right: 0;
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.contacts__dropdown-title {
     text-decoration: underline;
 }
 
@@ -110,6 +159,15 @@ ul li {
 .contacts__dropdown-title {
     top: 31px;
 }
+
+
+
+
+
+
+
+
+
 
 
 .footer-contacts {
