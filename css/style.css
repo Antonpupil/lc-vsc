@@ -2,9 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
     color: #ffffff;
-    /* color:black; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +22,7 @@ a {
 
 .hero {
     background: url(../img/1.png) top center no-repeat;
-    height: 1200px;
+    height: 780px;
 }
 
 .container {
@@ -51,12 +49,18 @@ a {
     height: 19px;
     left: 156px;
     top: 42px;
+    font-size: 14px;
 }
 
 .contacts__dropdown-title,
 .contacts {
     position: absolute;
     right: 0;
+}
+
+.contacts__dropdown-title {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .contacts {
@@ -84,7 +88,7 @@ a {
     position: absolute;
     width: 196px;
     height: 20px;
-    top: 228px;
+    top: 225px;
     font-size: 18px;
     font-weight: normal;
     line-height: 20px;
@@ -108,6 +112,7 @@ a {
     text-align: center;
     text-transform: uppercase;
     line-height: 55px;
+    font-size: 14px;
 }
 
 ul {
@@ -183,10 +188,14 @@ ul li {
     margin-bottom: 51px;
 }
 
+.hot-tours {
+    position: relative;
+}
+
 .tours__item {
     position: relative;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 23px;
     width: 362px;
 }
 
@@ -199,20 +208,26 @@ ul li {
 }
 
 .hot-tours__header {
-    min-height: 144px;
+    height: 144px;
     border-radius: 5px 5px 0px 0px;
 }
 
 .hot-tours__content {
     position: relative;
     left: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.hot-tours__container {
+    background: #FFFFFF;
 }
 
 .hot-tours__title {
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
-    margin: 30px 0px 20px;
+    padding: 30px 0px 20px;
+    color: #000000;
 }
 
 .tours,
@@ -222,7 +237,7 @@ ul li {
 }
 
 .tours {
-    margin-right: 28px;
+    margin: 0 28px 0 3px;
 }
 
 .tours__img {
@@ -233,24 +248,30 @@ ul li {
     display: inline-block;
     font-size: 16px;
     vertical-align: top;
+    color: #666666;
 }
 
 .tours__content-text {
     position: relative;
     width: 324px;
     height: 63px;
-    margin: 24px 0 25px;
+    margin: 24px 0 22px;
+    color: #303030;
+    line-height: 21px;
+    font-size: 14px;
 }
 
 .look-btn {
+    display: inline-block;
     border: 1px solid #F5170E;
     width: 135px;
     background: white;
     color: #F5170E;
-    position: absolute;
+    position: relative;
     text-align: center;
     text-transform: uppercase;
-    line-height: 55px;
+    line-height: 50px;
+    margin-bottom: 26px;
 }
 
 .look-btn_active {

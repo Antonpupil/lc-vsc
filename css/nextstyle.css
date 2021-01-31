@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* .body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: #FFFFFF;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 1920px;
+    height: 2930px;
+    outline: 1px solid yellow;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    position: relative;
+    width: 1141px;
+    height: 123px;
+    left: 390px;
+    top: 27px;
+}
+
+.logo {
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    bottom: 85px;
+    display: inline-block;
+
+    background: url(../img/logo.png);
+}
+
+.menu {
+    position: absolute;
+    width: 264px;
+    height: 19px;
+    left: 161px;
+    top: 14px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link,
+.contacts {
+    text-decoration: none;
+}
+
+.contacts {
+    position: absolute;
+    width: 191px;
+    height: 55px;
+    right: 0;
+    font-style: normal;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 29px;
+    margin-bottom: 2px;
+}
+
+.contacts__dropdown-title {
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 90px;
+    top: 30px;
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.hero__text-section {
+    position: absolute;
+    width: 515px;
+    height: 333px;
+    left: 380px;
+    top: 195px;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 83px;
+    margin-bottom: 29px;
+    line-height: 98px;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+}
+
+.btn {
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detailed-btn {
+    width: 168px;
+    background: #F5170E;
+    color: white;
+}
+
+.hero__btn {
+    position: absolute;
+    left: 100px;
+    top: 278px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 55px;
+    font-size: 14px;
+} */
