@@ -47,7 +47,7 @@ a {
     position: absolute;
     width: 275px;
     height: 19px;
-    left: 156px;
+    left: 166px;
     top: 42px;
     font-size: 14px;
 }
@@ -173,7 +173,6 @@ ul li {
     position: relative;
     margin: 0 auto 127px;
     width: 1145px;
-
 }
 
 .section__title,
@@ -181,14 +180,18 @@ ul li {
     display: inline-block;
 }
 
-.section__title {
+.common-title {
     font-size: 36px;
     line-height: 49px;
-    margin-right: 12px;
     margin-bottom: 51px;
 }
 
-.hot-tours {
+.section__title {
+    margin-right: 12px;
+}
+
+.hot-tours,
+.news__list {
     position: relative;
 }
 
@@ -278,6 +281,76 @@ ul li {
     background: #F5170E;
     color: #FFFFFF;
 }
+
+.news__list {
+    margin-bottom: 58px;
+}
+
+.news__item {
+    position: relative;
+    display: inline-block;
+    margin-right: 13px;
+    width: 557px;
+    vertical-align: top;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.news-content__img {
+    object-fit: cover;
+}
+
+.news-content {
+    position: absolute;
+    top: 267px;
+    left: 32px;
+    right: 30px;
+    overflow-wrap: break-word;
+}
+
+.news-content__date {
+    position: relative;
+    bottom: 12px;
+}
+
+.pagination {
+    text-align: center;
+    font-size: 16px;
+}
+
+.pagination__text {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.pagination__list, .pagination__item, .pagination__link {
+    display: inline-block;
+}
+
+.pagination__link, .pagination__item_active {
+    line-height: 30px;
+}
+
+.pagination__item:last-child {
+    margin-right: 0;
+}
+
+.pagination__link {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagination__item_active, 
+.pagination__item:hover {
+    background: #FFFFFF;
+    color: #F5170E;
+    border-radius: 50%;
+}
+
+
 
 
 
