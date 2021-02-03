@@ -8,36 +8,44 @@ body {
 }
 
 .wrapper {
-    width: 1920px;
-    height: 2930px;
-    outline: 1px solid black;
-    position: relative;
-    margin: 0 auto;
-    background: url(../img/background.png);
-}
-
-.main-page__wrapper {
     background: url(../img/1.png) top center no-repeat, url(../img/2.png) center bottom 165px no-repeat, url(../img/background.png) center center no-repeat;
+    /* position: relative; */
 }
 
 a {
     color: inherit;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
 .hero {
-    height: 780px;
+    position: relative;
+    height: 775px;
+}
+
+.hero__header {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 150px;
 }
 
 .container {
     position: relative;
     margin: 0 auto;
+    max-width: 1141px;
 }
 
-.header {
-    position: absolute;
-    width: 1140px;
-    height: 120px;
-    left: 390px;
+.header__main-title {
+    position: relative;
+    height: 124px;
 }
 
 .logo {
@@ -76,21 +84,21 @@ a {
     top: 27px;
 }
 
-.hero__content {
-    position: absolute;
-    width: 511px;
+.header__content {
+    position: relative;
     height: 333px;
-    left: 390px;
-    top: 196px;
+    top: 46px;
 }
 
-.hero__title {
+.header__title {
+    position: relative;
     font-weight: bold;
     font-size: 72px;
     line-height: 98px;
+    width: 511px;
 }
 
-.hero__subtitle {
+.header__subtitle {
     position: absolute;
     width: 196px;
     height: 20px;
@@ -112,23 +120,13 @@ a {
     color: white;
 }
 
-.hero__btn {
+.header__btn {
     position: absolute;
     top: 278px;
     text-align: center;
     text-transform: uppercase;
     line-height: 55px;
     font-size: 14px;
-}
-
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    list-style: none;
 }
 
 .menu__item {
@@ -177,7 +175,7 @@ ul li {
 
 .section {
     position: relative;
-    width: 1145px;
+    width: 1141px;
 }
 
 .section-page {
@@ -202,17 +200,15 @@ ul li {
 .hot-tours,
 .news__list {
     position: relative;
+    font-size: 0;
 }
 
 .tours__item {
     position: relative;
     display: inline-block;
-    margin-right: 23px;
+    margin-right: 27px;
     width: 362px;
-}
-
-.tours__icon {
-    margin-bottom: 24px;
+    font-size: 14px;
 }
 
 .tours__item:last-child {
@@ -228,6 +224,7 @@ ul li {
     position: relative;
     left: 20px;
     border-radius: 0px 0px 5px 5px;
+
 }
 
 .hot-tours__container {
@@ -238,7 +235,7 @@ ul li {
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
-    padding: 30px 0px 20px;
+    padding: 33px 0px 20px;
     color: #000000;
 }
 
@@ -250,10 +247,7 @@ ul li {
 
 .tours {
     margin: 0 28px 0 3px;
-}
-
-.tours__img {
-    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .tours__text {
@@ -261,13 +255,15 @@ ul li {
     font-size: 16px;
     vertical-align: top;
     color: #666666;
+    padding-left: 10px;
+    line-height: 22px;
 }
 
 .tours__content-text {
     position: relative;
     width: 324px;
     height: 63px;
-    margin: 24px 0 22px;
+    margin: 20px 0 25px;
     color: #303030;
     line-height: 21px;
     font-size: 14px;
@@ -298,11 +294,12 @@ ul li {
 .news__item {
     position: relative;
     display: inline-block;
-    margin-right: 18px;
+    margin-right: 25px;
     width: 557px;
     vertical-align: top;
     border-radius: 5px;
     overflow: hidden;
+    font-size: 14px;
 }
 
 .news__item:last-child {
@@ -315,25 +312,47 @@ ul li {
 
 .news-content {
     position: absolute;
-    top: 267px;
-    left: 32px;
+    top: 255px;
+    left: 26px;
     right: 30px;
     overflow-wrap: break-word;
+    display: inline-block;
+}
+
+.news-content__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.news-content__text {
+    padding: 5px 0 0 2px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .news-content__date {
     position: relative;
-    bottom: 12px;
+    line-height: 21px;
+    display: block;
+    margin-bottom: 12px;
 }
 
 .pagination {
-    text-align: center;
     font-size: 16px;
+}
+
+.pagination__info {
+    width: 403px;
+    height: 53px;
+    margin: 0 auto;
 }
 
 .pagination__text {
     display: inline-block;
     margin-right: 25px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .pagination__list,
@@ -342,9 +361,11 @@ ul li {
     display: inline-block;
 }
 
+
 .pagination__link,
 .pagination__item_active {
-    line-height: 30px;
+    line-height: 32px;
+    text-align: center;
 }
 
 .pagination__item:last-child {
@@ -366,16 +387,20 @@ ul li {
     border-radius: 50%;
 }
 
+.section-about {
+    margin: 0 auto 68px;
+}
+
 .about__list {
     position: relative;
-    width: 1139px;
     height: 552px;
-    left: 389px;
+    font-size: 0%;
 }
 
 .about__item {
     display: inline-block;
     vertical-align: middle;
+    font-size: 16px;
 }
 
 .about__img2 {
@@ -391,13 +416,13 @@ ul li {
 }
 
 .section-news {
-    margin: 0 auto 140px;
+    margin: 0 auto 124px;
 }
 
 .about__title {
     position: absolute;
     top: 167px;
-    left: 822px;
+    left: 435px;
 }
 
 .about__title_text {
@@ -416,7 +441,7 @@ ul li {
 
 .about__button {
     position: absolute;
-    left: 825px;
+    left: 435px;
     top: 435px;
     display: inline-block;
     text-align: center;
@@ -424,13 +449,17 @@ ul li {
     line-height: 55px;
 }
 
+.footer-section {
+    position: relative;
+    height: 150px;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
 .footer {
-    position: absolute;
-    width: 1140px;
-    height: 120px;
-    left: 390px;
-    top: 72px;
-    border-top: 4px solid	rgba(255,255,255,0.1);
+    position: relative;
+    height: 93px;
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
 }
 
 .contacts__updown-title {
@@ -454,7 +483,7 @@ ul li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
-    }
+}
 
 .messamgers__item:last-child {
     margin-right: 0;
@@ -470,12 +499,15 @@ ul li {
 .messangers__link_telegram {
     background: url(../img/messangers/telegram.png) center center no-repeat;
 }
+
 .messangers__link_vk {
     background: url(../img/messangers/vk.png) center center no-repeat;
 }
+
 .messangers__link_facebook {
     background: url(../img/messangers/f.png)center center no-repeat;
 }
+
 .messangers__link_instagram {
     background: url(../img/messangers/in.png) center center no-repeat;
 }
