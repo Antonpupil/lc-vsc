@@ -33,9 +33,9 @@ ul li {
 
 .hero__header {
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 26px;
     max-width: 1920px;
-    height: 150px;
+    height: 124px;
 }
 
 .container {
@@ -338,10 +338,10 @@ ul li {
     display: block;
     margin-bottom: 12px;
 }
-
+/* 
 .pagination {
     font-size: 16px;
-}
+} */
 
 .pagination__info {
     width: 403px;
@@ -362,6 +362,13 @@ ul li {
     display: inline-block;
 }
 
+.pagination__list{
+    font-size: 0;
+}
+
+.pagination__item{
+    font-size: 16px;
+}
 
 .pagination__link,
 .pagination__item_active {
