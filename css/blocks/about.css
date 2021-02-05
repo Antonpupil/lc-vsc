@@ -1,0 +1,55 @@
+.about {
+    margin: 0 auto 68px;
+}
+
+.about__list {
+    position: relative;
+    height: 552px;
+    font-size: 0%;
+}
+
+.about__item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.about__img2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about__img1 {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.about__title {
+    position: absolute;
+    top: 167px;
+    left: 435px;
+}
+
+.about__title_text {
+    font-size: 36px;
+    margin-bottom: 37px;
+    color: #000000;
+}
+
+.about__text {
+    width: 500px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 28px;
+    color: #060606;
+}
+
+.about__btn {
+    position: absolute;
+    left: 435px;
+    top: 435px;
+    display: inline-block;
+    line-height: 55px;
+}

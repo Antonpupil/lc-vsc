@@ -1,0 +1,41 @@
+.tours {
+    margin: 0 28px 0 3px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.tours__text {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    color: #666666;
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+.tours__content-text {
+    position: relative;
+    width: 324px;
+    height: 63px;
+    margin: 20px 0 25px;
+    color: #303030;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.tours__item {
+    position: relative;
+    display: inline-block;
+    margin-right: 27px;
+    width: 362px;
+    font-size: 14px;
+}
+
+.tours__item:last-child {
+    margin-right: 0px;
+}
+
+.hot-tours__header {
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+}

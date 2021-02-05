@@ -1,0 +1,31 @@
+.menu {
+    position: absolute;
+    width: 264px;
+    height: 19px;
+    left: 162px;
+    top: 42px;
+    font-size: 14px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.menu__link_last {
+    margin-right: 0;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

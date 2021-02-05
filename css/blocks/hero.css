@@ -1,0 +1,11 @@
+.hero {
+    position: relative;
+    height: 775px;
+}
+
+.hero__header {
+    position: relative;
+    margin: 0 auto 26px;
+    max-width: 1920px;
+    height: 150px;
+}

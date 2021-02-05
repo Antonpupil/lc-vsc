@@ -1,0 +1,27 @@
+.hot-tours {
+    position: relative;
+    font-size: 0;
+}
+
+.hot-tours__header {
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.hot-tours__content {
+    position: relative;
+    left: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.hot-tours__container {
+    background: #FFFFFF;
+}
+
+.hot-tours__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 33px 0px 20px;
+    color: #000000;
+}

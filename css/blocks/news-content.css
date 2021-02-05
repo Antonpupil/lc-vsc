@@ -1,0 +1,31 @@
+.news-content__img {
+    object-fit: cover;
+}
+
+.news-content {
+    position: absolute;
+    top: 255px;
+    left: 26px;
+    right: 30px;
+    overflow-wrap: break-word;
+    display: inline-block;
+}
+
+.news-content__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.news-content__text {
+    padding: 5px 0 0 2px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.news-content__date {
+    position: relative;
+    line-height: 21px;
+    display: block;
+    margin-bottom: 12px;
+}

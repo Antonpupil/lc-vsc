@@ -1,0 +1,25 @@
+.section {
+    position: relative;
+    width: 1141px;
+}
+
+.section-page {
+    margin: 0 auto 127px;
+}
+
+.section__title,
+.section__img {
+    display: inline-block;
+}
+
+.section__title {
+    margin-right: 12px;
+}
+
+.section-about {
+    margin: 0 auto 68px;
+}
+
+.section-news {
+    margin: 0 auto 124px;
+}
