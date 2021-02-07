@@ -58,27 +58,32 @@ ul li {
     max-width: 1141px;
 }
 
-.header__main-title {
-    height: 124px;
-    padding-top: 26px;
+.title{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+.header__main-title {
+    height: 124px;
+    padding-top: 26px;
+}
 
-.header__col {
+.title__left, .title__right {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .logo {
-    margin-top: 2px;
+    /* margin-top: 2px; */
     margin-right: 79px;
+    padding-bottom: 15px;
 }
 
 .menu {
     width: 264px;
     height: 19px;
+    padding-bottom: 36px;
 }
 
 .contacts__phone,
@@ -187,9 +192,9 @@ ul li {
     width: 1141px;
 } */
 
-/* .page {
-    margin: 0 auto 127px;
-} */
+.page-content {
+    padding-bottom: 203px;
+}
 
 .page-content__container {
     display: flex;
@@ -358,7 +363,7 @@ ul li {
 
 .news-content__text {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 25px;
 }
 
 .news-content__date {
@@ -429,9 +434,6 @@ ul li {
     border-radius: 50%;
 }
 
-.about {
-    margin: 0 auto 68px;
-}
 
 .about__list {
     position: relative;
@@ -477,22 +479,36 @@ ul li {
     width: 500px;
     overflow-wrap: break-word;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
     color: #060606;
 }
 
 .about__btn {
+    position: absolute;
+    left: 435px;
+    top: 432px;
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
     line-height: 55px;
 }
 
+
 .footer {
-    position: relative;
-    height: 150px;
-    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    min-height: 150px;
+    margin-top: -150px;
 }
+.footer__main-title{
+    align-items: flex-end;
+    height: 93px;
+   border-top: 4px solid rgba(255, 255, 255, 0.1);
+   margin-top: 9px; 
+}
+.footer__col{
+    /* padding-bottom: 7px; */
+    align-items: center;
+}
+
 
 .contacts__updown-title {
     font-size: 11px;
@@ -505,10 +521,11 @@ ul li {
 }
 
 .messangers {
-    position: absolute;
     width: 190px;
-    left: 690px;
-    top: 35px;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
 }
 
 .messamgers__item {

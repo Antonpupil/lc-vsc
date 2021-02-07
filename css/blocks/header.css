@@ -1,12 +1,4 @@
-.header__left, .header__right{
-    width: 50%;
-}
-
-.header__right{
-    text-align: right;
-}
 .header__main-title {
-    position: relative;
     height: 124px;
     padding-top: 26px;
 }

@@ -1,12 +1,8 @@
-.contacts__dropdown-title,
-.contacts {
-    position: absolute;
-    right: 0;
-}
-
 .contacts__dropdown-title {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
+    margin: -12px 2px 0;
+    text-decoration: underline;
 }
 
 .contacts {
@@ -14,19 +10,22 @@
     height: 55px;
     text-align: right;
     font-style: normal;
-}
-
-.contacts__header {
-    top: 27px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .contacts__phone {
-    text-decoration: none;
     font-size: 26px;
+    text-decoration: none;
 }
 
-.contacts__dropdown-title {
-    text-decoration: underline;
-    top: 31px;
+.contacts__updown-title {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
 }
 
+.contacts__footer {
+    top: 25px;
+}

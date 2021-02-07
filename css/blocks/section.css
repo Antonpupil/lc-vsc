@@ -1,25 +1,14 @@
 .section {
-    position: relative;
-    width: 1141px;
-}
-
-.section-page {
-    margin: 0 auto 127px;
-}
-
-.section__title,
-.section__img {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
 .section__title {
-    margin-right: 12px;
-}
-
-.section-about {
-    margin: 0 auto 68px;
-}
-
-.section-news {
-    margin: 0 auto 124px;
+    display: inline-block;
+    width: 21px;
+    height: 28px;
+    margin-right: 8px;
+    margin-left: 3px;
 }

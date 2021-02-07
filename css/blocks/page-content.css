@@ -1,3 +1,10 @@
 .page-content {
-    position: relative;
+    padding-bottom: 203px;
+}
+
+.page-content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
 }

@@ -1,24 +1,27 @@
-/* 
 .pagination {
     font-size: 16px;
-} */
+}
 
 .pagination__info {
-    width: 403px;
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
     height: 53px;
     margin: 0 auto;
+    align-content: flex-start;
 }
 
 .pagination__text {
+    display: inline-block;
     margin-right: 25px;
     font-size: 16px;
     line-height: 20px;
+    padding-top: 5px;
 }
 
 .pagination__list,
 .pagination__item,
-.pagination__link,
-.pagination__text {
+.pagination__link {
     display: inline-block;
 }
 
@@ -53,4 +56,4 @@
     background: #FFFFFF;
     color: #F5170E;
     border-radius: 50%;
-}
+}   

@@ -1,5 +1,13 @@
 .footer {
-    position: relative;
-    height: 150px;
-    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    min-height: 150px;
+    margin-top: -150px;
+}
+.footer__main-title{
+    align-items: flex-end;
+    height: 93px;
+   border-top: 4px solid rgba(255, 255, 255, 0.1);
+   margin-top: 9px; 
+}
+.footer__col{
+    align-items: center;
 }

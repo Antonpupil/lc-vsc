@@ -1,8 +1,9 @@
 .messangers {
-    position: absolute;
     width: 190px;
-    left: 690px;
-    top: 35px;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
 }
 
 .messamgers__item {
