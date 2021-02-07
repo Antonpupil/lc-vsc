@@ -9,3 +9,31 @@
     max-width: 1920px;
     height: 150px;
 }
+.hero__content {
+    position: relative;
+    height: 333px;
+}
+
+.hero__title {
+    position: relative;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    width: 511px;
+}
+
+.hero__subtitle {
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    top: 225px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.hero__btn {
+    position: absolute;
+    top: 278px;
+    line-height: 55px;
+}

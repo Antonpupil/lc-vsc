@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    /* color: #ffffff; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -11,15 +11,19 @@ body {
     margin: 0;
 }
 
-.wrapper {
+.main-page-wrapper {
     background: url(../img/1.png) top center no-repeat, url(../img/2.png) center bottom 165px no-repeat;
     background-color: #001821;
+}
+
+.wrapper {
     overflow: hidden;
     min-height: 100%;
     min-width: 1920px;
     display: flex;
     flex-direction: column;
 }
+
 
 .wrapper__content {
     flex: 1;
