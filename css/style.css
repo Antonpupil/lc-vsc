@@ -143,6 +143,10 @@ ul li {
     margin-bottom: 33px;
 }
 
+.hero__btn{
+    display: inline-block;
+}
+
 .menu__item {
     /* display: inline-block;
     vertical-align: middle; */
@@ -231,7 +235,7 @@ ul li {
 .news__list {
     font-size: 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -283,6 +287,7 @@ ul li {
     align-content: flex-start;
 }
 
+.hot-tours__img,
 .tours__img,
 .tours__text {
     display: inline-block;
@@ -337,46 +342,40 @@ ul li {
     overflow: hidden;
     font-size: 14px;
 }
-
-.news__item:last-child {
-    margin-right: 0;
-}
-
-.news-content__img {
-    object-fit: cover;
-}
-
-.news-content {
+.news__content {
     position: absolute;
     top: 255px;
     left: 26px;
     right: 30px;
     overflow-wrap: break-word;
-    display: inline-block;
 }
 
-.news-content__subtitle {
+.news__item:last-child {
+    margin-right: 0;
+}
+
+.news__img {
+    object-fit: cover;
+}
+
+.news__content-subtitle {
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
+    padding-left: 2px;
 }
 
-.news-content__text {
+.news__content-text {
     font-size: 16px;
     line-height: 25px;
 }
 
-.news-content__date {
+.news__content-date {
     position: relative;
     line-height: 21px;
     display: block;
     margin-bottom: 12px;
 }
-
-/* 
-.pagination {
-    font-size: 16px;
-} */
 
 .pagination__info {
     display: flex;
@@ -469,7 +468,7 @@ ul li {
     left: 435px;
 }
 
-.about__title_text {
+.about__title-text {
     font-size: 36px;
     margin-bottom: 37px;
     color: #000000;
@@ -501,7 +500,7 @@ ul li {
 .footer__main-title{
     align-items: flex-end;
     height: 93px;
-   border-top: 4px solid rgba(255, 255, 255, 0.1);
+   border-top: 1px solid rgba(255, 255, 255, 0.1);
    margin-top: 9px; 
 }
 .footer__col{

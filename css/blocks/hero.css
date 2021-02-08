@@ -6,7 +6,9 @@
     margin-bottom:73px;
     height: 124px;
 }
-
+.hero__btn{
+    display: inline-block;
+}
 .hero-content {
     min-height: 333px;
 }

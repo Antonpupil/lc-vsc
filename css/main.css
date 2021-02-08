@@ -3,24 +3,29 @@
 @import url('./layout/reset.css');
 @import url('./layout/base.css');
 
-@import url('./blocks/about.css');
-@import url('./blocks/btn.css');
-@import url('./blocks/common-title.css');
-@import url('./blocks/contacts.css');
-@import url('./blocks/container.css');
-@import url('./blocks/footer.css');
-@import url('./blocks/header.css');
 @import url('./blocks/hero.css');
-@import url('./blocks/hot-tours.css');
+@import url('./blocks/container.css');
+@import url('./blocks/header.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/menu.css');
-@import url('./blocks/messangers.css');
-@import url('./blocks/news.css');
-@import url('./blocks/page-content.css');
-@import url('./blocks/pagination.css');
 @import url('./blocks/section.css');
+@import url('./blocks/common-title.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/page-content.css');
+@import url('./blocks/hot-tours.css');
 @import url('./blocks/tours.css');
 @import url('./blocks/title.css');
+@import url('./blocks/news.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/messangers.css');
+
+
+
+
+
 
 
 
