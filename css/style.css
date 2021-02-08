@@ -21,11 +21,6 @@ body {
     background-color: #001821;
 }
 
-/* .main-page-wrapper {
-    background: url(../img/1.png) top center no-repeat, url(../img/2.png) center bottom 165px no-repeat;
-    background-color: #001821;
-} */
-
 .wrapper-content {
     flex: 1;
 }
@@ -48,7 +43,7 @@ ul li {
 }
 
 .hero__header {
-    margin-bottom:73px;
+    margin-bottom: 73px;
     /* max-width: 1920px; */
     height: 124px;
 }
@@ -58,17 +53,19 @@ ul li {
     max-width: 1141px;
 }
 
-.title{
+.title {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .header__main-title {
     height: 124px;
     padding-top: 26px;
 }
 
-.title__left, .title__right {
+.title__left,
+.title__right {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -143,7 +140,7 @@ ul li {
     margin-bottom: 33px;
 }
 
-.hero__btn{
+.hero__btn {
     display: inline-block;
 }
 
@@ -191,10 +188,6 @@ ul li {
     align-content: flex-start;
 }
 
-/* .section {
-    position: relative;
-    width: 1141px;
-} */
 
 .page-content {
     padding-bottom: 203px;
@@ -207,9 +200,14 @@ ul li {
     align-content: flex-start;
 }
 
-.section__title,
+.hot-tours__section-title,
 .section__img {
     display: inline-block;
+}
+
+.hot-tours__section-title {
+    margin-right: 8px;
+    margin-left: 3px;
 }
 
 .section__img {
@@ -223,14 +221,10 @@ ul li {
     margin-bottom: 51px;
 }
 
-.section__title {
-    margin-right: 8px;
-    margin-left: 3px;
-}
-
-.hot-tours{
+.hot-tours {
     margin-bottom: 117px;
 }
+
 .hot-tours__list,
 .news__list {
     font-size: 0;
@@ -265,7 +259,7 @@ ul li {
     border-radius: 0px 0px 5px 5px;
 }
 
-.hot-tours__content{
+.hot-tours__content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -273,6 +267,7 @@ ul li {
     flex-wrap: wrap;
     padding-left: 22px;
 }
+
 .hot-tours__title {
     font-weight: bold;
     font-size: 24px;
@@ -281,7 +276,7 @@ ul li {
     color: #000000;
 }
 
-.hot-tours__period{
+.hot-tours__period {
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
@@ -292,9 +287,11 @@ ul li {
 .tours__text {
     display: inline-block;
 }
-.hot-tours__icons-meal{
+
+.hot-tours__icons-meal {
     padding-left: 25px;
 }
+
 .tours {
     margin: 0px 0 20px 5px;
 }
@@ -342,6 +339,7 @@ ul li {
     overflow: hidden;
     font-size: 14px;
 }
+
 .news__content {
     position: absolute;
     top: 255px;
@@ -497,13 +495,15 @@ ul li {
     min-height: 150px;
     margin-top: -150px;
 }
-.footer__main-title{
+
+.footer__main-title {
     align-items: flex-end;
     height: 93px;
-   border-top: 1px solid rgba(255, 255, 255, 0.1);
-   margin-top: 9px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 9px;
 }
-.footer__col{
+
+.footer__col {
     /* padding-bottom: 7px; */
     align-items: center;
 }

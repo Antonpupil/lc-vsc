@@ -3,6 +3,7 @@
 @import url('./layout/reset.css');
 @import url('./layout/base.css');
 
+@import url('./blocks/wrapper.css');
 @import url('./blocks/hero.css');
 @import url('./blocks/container.css');
 @import url('./blocks/header.css');
