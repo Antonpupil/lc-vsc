@@ -1,0 +1,40 @@
+.messangers {
+    width: 190px;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.messangers__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.messangers__item:last-child {
+    margin-right: 0;
+}
+
+.messangers__link {
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.messangers__link_telegram {
+    background: url(../../img/messangers/telegram.png) center center no-repeat;
+}
+
+.messangers__link_vk {
+    background: url(../../img/messangers/vk.png) center center no-repeat;
+}
+
+.messangers__link_facebook {
+    background: url(../../img/messangers/f.png)center center no-repeat;
+}
+
+.messangers__link_instagram {
+    background: url(../../img/messangers/in.png) center center no-repeat;
+}

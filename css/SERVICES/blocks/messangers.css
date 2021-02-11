@@ -6,13 +6,13 @@
     margin-right: 70px;
 }
 
-.messamgers__item {
+.messangers__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.messamgers__item:last-child {
+.messangers__item:last-child {
     margin-right: 0;
 }
 
@@ -24,17 +24,17 @@
 }
 
 .messangers__link_telegram {
-    background: url(../../img/messangers/telegram.png) center center no-repeat;
+    background: url(../img/messangers/telegram.png) center center no-repeat;
 }
 
 .messangers__link_vk {
-    background: url(../../img/messangers/vk.png) center center no-repeat;
+    background: url(../img/messangers/vk.png) center center no-repeat;
 }
 
 .messangers__link_facebook {
-    background: url(../../img/messangers/f.png)center center no-repeat;
+    background: url(../img/messangers/f.png)center center no-repeat;
 }
 
 .messangers__link_instagram {
-    background: url(../../img/messangers/in.png) center center no-repeat;
+    background: url(../img/messangers/in.png) center center no-repeat;
 }

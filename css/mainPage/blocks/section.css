@@ -1,0 +1,12 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.hot-tours__section-title {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 3px;
+}

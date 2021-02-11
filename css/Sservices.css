@@ -1,0 +1,19 @@
+@import url('././mainPage/layout/fonts.css');
+@import url('././mainPage/layout/normalize.css');
+@import url('././mainPage/layout/reset.css');
+@import url('././SERVICES/Sloyout/Sbase.css');
+
+@import url('././SERVICES/blocks/wrapper.css');
+@import url('././SERVICES/blocks/hero.css');
+@import url('././SERVICES/blocks/container.css');
+@import url('././SERVICES/blocks/logo.css');
+@import url('././SERVICES/blocks/menu.css');
+@import url('././SERVICES/blocks/contacts.css');
+@import url('././SERVICES/blocks/breadcrumps.css');
+@import url('././SERVICES/blocks/page-content.css');
+@import url('././SERVICES/blocks/tour.css');
+@import url('././SERVICES/blocks/pagination.css');
+@import url('././SERVICES/blocks/partners.css');
+@import url('././SERVICES/blocks/footer.css');
+@import url('././SERVICES/blocks/title.css');
+@import url('././SERVICES/blocks/messangers.css');

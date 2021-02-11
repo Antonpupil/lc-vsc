@@ -527,13 +527,13 @@ ul li {
     margin-right: 70px;
 }
 
-.messamgers__item {
+.messangers__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.messamgers__item:last-child {
+.messangers__item:last-child {
     margin-right: 0;
 }
 

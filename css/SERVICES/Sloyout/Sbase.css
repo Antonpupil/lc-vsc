@@ -3,12 +3,15 @@ body {
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
 }
 
 html,
 body {
     min-height: 100%;
     margin: 0;
+    background: #F2F2F2;
 }
 
 a {

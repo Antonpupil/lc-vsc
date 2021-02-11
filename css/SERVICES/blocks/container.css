@@ -1,0 +1,15 @@
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+
+.container__col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container__col_right {
+    margin-right: 15px;
+}
