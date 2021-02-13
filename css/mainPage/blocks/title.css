@@ -1,11 +1,5 @@
-.title{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.title__left, .title__right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.title {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 51px;
 }

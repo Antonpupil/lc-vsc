@@ -1,24 +1,16 @@
 .hero {
-    min-height: 775px;
+    min-height: 769px;
 }
 
-.hero__header {
-    margin-bottom:73px;
-    height: 124px;
-}
-.hero__btn{
-    display: inline-block;
-}
-.hero-content {
-    min-height: 333px;
-}
-
-.hero-content__container {
-    flex-direction: column;
+.hero__container{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__content {
+    min-height: 333px;
+    margin-top: 10%;
 }
 
 .hero__title {
@@ -34,4 +26,8 @@
     font-weight: normal;
     line-height: 20px;
     margin-bottom: 33px;
+}
+
+.hero__btn{
+    display: inline-block;
 }

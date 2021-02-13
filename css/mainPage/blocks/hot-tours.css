@@ -53,3 +53,9 @@
 .hot-tours__icons-meal {
     padding-left: 25px;
 }
+
+.hot-tours__section-title {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 3px;
+}
