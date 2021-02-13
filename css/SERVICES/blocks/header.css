@@ -2,3 +2,10 @@
     height: 124px;
     padding-top: 26px;
 }
+
+/* .header__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+} */

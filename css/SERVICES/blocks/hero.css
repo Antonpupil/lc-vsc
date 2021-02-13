@@ -2,28 +2,27 @@
     display: flex;
     flex-direction: column;
     min-height: 412px;
-    background: url(/img/services/headline\ 1.png) center no-repeat;
-    padding-bottom: 24px;
+    background: url(/img/services/headline1.png) center no-repeat;
+    padding-bottom: 1%;
+    background-size: cover;
 }
 
 .hero__container {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    flex: 1;
 }
 
-.hero__header {
-    padding-top: 29px;
-}
-
-.header__container {
+/* .hero__header {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-}
+    padding-top: 2.5%;
+    width: 100%;
+} */
 
 .hero__title {
     font-weight: bold;
