@@ -2,7 +2,7 @@
     width: 190px;
     font-size: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 70px;
 }
 

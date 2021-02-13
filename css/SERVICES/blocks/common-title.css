@@ -1,11 +1,4 @@
-/* .common-title {
-    font-size: 36px;
-    line-height: 49px;
-    margin-bottom: 51px;
-} */
-
 .common-title {
-    /* flex: 1; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,8 +11,4 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-.common-title__col_right{
-    margin-right: 15px;
 }

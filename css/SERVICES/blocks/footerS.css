@@ -1,0 +1,10 @@
+.footer {
+    margin-top: auto;
+}
+
+.footer__theme_black {
+    border: none;
+    color: #FFFFFF;
+    background: #001821;
+    min-height: 132px;
+}

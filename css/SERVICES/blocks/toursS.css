@@ -1,13 +1,13 @@
-.tour__img {
+.tours__img {
     width: 40%;
     margin-right: 5%;
 }
 
-.tour__content {
+.tours__content {
     flex: 1;
 }
 
-.tour__subtitle {
+.tours__subtitle {
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
@@ -15,29 +15,29 @@
     color: #000000;
 }
 
-.tour__text {
+.tours__text {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 7%;
     color: #303030;
 }
 
-.tour__btn {
+.tours__btn {
     border: 1px solid #F5170E;
     border-radius: 35px;
     text-align: center;
     width: 168px;
 }
 
-.tour__link:hover .tour__btn {
+.tours__link:hover .tours__btn {
     background-color: cornflowerblue;
 }
 
-.tour__btn_active {
+.tours__btn_active {
     background: #F5170E;
 }
 
-.tour__link {
+.tours__link {
     display: block;
     font-weight: bold;
     font-size: 14px;
@@ -47,6 +47,6 @@
     text-transform: uppercase;
 }
 
-.tour__link_active {
+.tours__link_active {
     color: #FFFFFF;
 }
