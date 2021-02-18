@@ -4,14 +4,6 @@
     padding-bottom: 36px;
 }
 
-.menu__link {
-    text-decoration: none;
-}
-
-.menu__link:hover {
-    text-decoration: underline;
-}
-
 .menu__item {
     font-size: 14px;
 }

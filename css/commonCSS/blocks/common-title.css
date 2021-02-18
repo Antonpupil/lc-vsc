@@ -14,5 +14,7 @@
 }
 
 .common-title__reviews{
-    margin-top: 4%;
+    margin-top: 45px;
+    border: none;
+    align-items: flex-end;    
 }

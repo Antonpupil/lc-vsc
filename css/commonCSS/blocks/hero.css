@@ -23,7 +23,11 @@
     margin-bottom: 28px;
 }
 
-.hero__title-reviews {
+.hero__title-services {
     margin-bottom: 17px;
     margin-left: 11px;
+}
+
+.hero__title-reviews{
+    margin-bottom: 40px;
 }

@@ -17,3 +17,7 @@
 .menu__link {
     text-decoration: none;
 }
+.menu__link:hover {
+    color: #DA0100;
+    text-decoration: none;
+}
