@@ -7,4 +7,5 @@
   top: 0px;
   background: url(../../../img/greeting/bg.png) center no-repeat;
   align-items: center;
+  background-size: cover;
 }
