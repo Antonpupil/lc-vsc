@@ -16,6 +16,7 @@
 
 .menu__link {
     text-decoration: none;
+    transition: color 1s;
 }
 .menu__link:hover {
     color: #DA0100;

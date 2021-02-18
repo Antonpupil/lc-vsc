@@ -5,10 +5,11 @@
 @import url('./commonCSS/layout/base.css');
 
 @import url('./commonCSS/blocks/wrapper.css');
-@import url('./commonCSS/blocks/wrapperMain.css');
 
 @import url('./commonCSS/blocks/hero.css');
 @import url('./commonCSS/blocks/heroMain.css');
+
+@import url('./commonCSS/blocks/header.css');
 
 @import url('./commonCSS/blocks/welcome.css');
 

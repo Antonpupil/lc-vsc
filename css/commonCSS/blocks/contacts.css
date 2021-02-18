@@ -1,29 +1,89 @@
 .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-style: normal;
 }
 
-.contacts__phone {
-    font-size: 26px;
-    line-height: 35px;
+.contacts__time-table{
+    position: relative;
+    cursor: pointer;
+}
+.contacts__time-table:hover .contacts__dropdown-table {
+    opacity: 1;
+    right: 0;
+}
+
+.contacts__time-table:hover .contacts__dropdown-triangle{
+    opacity: 1;
+    right: 20px;
+}
+.contacts__time-table:hover .contacts__dropdown-title{
+    color: #DA0100;
     text-decoration: none;
 }
 
+.contacts__phone {
+  font-size: 26px;
+  line-height: 35px;
+  text-decoration: none;
+}
+
 .contacts__dropdown-title {
-    font-size: 13px;
-    line-height: 18px;
-    text-decoration: underline;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: underline;
+  transition: color 1s;
 }
 
 .contacts__updown-title {
-    font-size: 11px;
-    line-height: 20px;
-    color: #9A9A9A;
+  font-size: 11px;
+  line-height: 20px;
+  color: #9a9a9a;
 }
 
 .contacts__footer {
-    top: 25px;
+  top: 25px;
+}
+
+.contacts__dropdown-table {
+    position: absolute;
+    background: #cdd1d2;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1e1f20;
+    padding: 19px 15px;
+    mix-blend-mode: normal;
+    top: 30px;
+    right: -999999px;
+    opacity: 0;
+    width: 160px;
+}
+
+.contacts__dropdown-table::before{
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: block;
+}
+
+.contacts__dropdown-table__working {
+  font-weight: bold;
+}
+
+.contacts__dropdown-triangle {
+    position: absolute;
+    border: 20px solid transparent;
+    border-bottom-color: #cdd1d2;
+    border-top-width: 0;
+    width: 0;
+    height: 0;
+    bottom: 90%;
+    right: -99999px;
+    opacity: 0;
 }

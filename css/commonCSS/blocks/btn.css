@@ -7,6 +7,12 @@
     text-align: center;
     font-size: 14px;
     line-height: 55px;
+    transition: color 1s;
+}
+
+.btn:hover{
+    background: #DA0100;
+    color: white;
 }
 
 .btn__detailed {
@@ -34,6 +40,7 @@
     padding: 0 40px;
     color: #FFFFFF;
     cursor: pointer;
+    transition: all 1s;
 }
 
 .btn__controls_red{

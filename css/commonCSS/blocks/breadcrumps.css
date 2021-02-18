@@ -12,6 +12,12 @@
     font-size: 14px;
     line-height: 19px;
     color: #9A9A9A;
+    transition: color 1s;
+}
+
+.breadcrumps__link:hover {
+    color: #DA0100;
+    text-decoration: none;
 }
 
 .breadcrumps__item {

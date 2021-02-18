@@ -27,6 +27,7 @@
 
 .hero__btn{
     display: inline-block;
+    transition: color 1s;
 }
 .hero__btn:hover{
     background: #DA0100;

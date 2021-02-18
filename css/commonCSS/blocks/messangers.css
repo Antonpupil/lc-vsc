@@ -23,7 +23,78 @@
     height: 36px;
 }
 
-.messangers__link_telegram {
+.messangers__link_telegram, .messangers__link_vk, .messangers__link_facebook, .messangers__link_instagram{
+    position: relative;
+}
+
+.messangers__link_telegram::after, .messangers__link_vk::after, .messangers__link_facebook::after, .messangers__link_instagram::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    display: block;
+}
+
+.messangers__link_telegram::after{
+    background: url('../../../img/messangers/spritesMes.png') -122px -10px;
+}
+.messangers__link_vk::after{
+    background: url('../../../img/messangers/spritesMes.png') -10px -122px;
+}
+.messangers__link_facebook::after{
+    background: url('../../../img/messangers/spritesMes.png') -10px -10px;
+}
+.messangers__link_instagram::after{
+    background: url('../../../img/messangers/spritesMes.png') -10px -66px;
+}
+
+.messangers__link_telegram::before, .messangers__link_vk::before, .messangers__link_facebook::before, .messangers__link_instagram::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    display: block;
+    opacity: 0;
+}
+.messangers__link_telegram::before{
+    background: url('../../../img/messangers/spritesMes.png') -122px -66px;
+}
+.messangers__link_vk::before{
+    background: url('../../../img/messangers/spritesMes.png') -66px -122px;
+}
+.messangers__link_facebook::before{
+    background: url('../../../img/messangers/spritesMes.png') -66px -10px;
+}
+.messangers__link_instagram::before{
+    background: url('../../../img/messangers/spritesMes.png') -66px -66px;
+}
+
+.messangers__link_telegram:hover:after{
+    background-position: -122px -66px;
+    opacity: 0;
+}
+.messangers__link_vk:hover:after{
+    background-position: -66px -122px;
+    opacity: 0;
+}
+.messangers__link_facebook:hover:after{
+    background-position: -66px -10px;
+    opacity: 0;
+}
+.messangers__link_instagram:hover:after{
+    background-position: -10px -66px;
+    opacity: 0;
+}
+
+.messangers__link_telegram:hover:before, .messangers__link_vk:hover:before, .messangers__link_facebook:hover:before, .messangers__link_instagram:hover:before{
+    opacity: 1;
+}
+
+/* .messangers__link_telegram {
     background: url(../../../img/messangers/telegram.png) center center no-repeat;
 }
 
@@ -37,4 +108,4 @@
 
 .messangers__link_instagram {
     background: url(../../../img/messangers/in.png) center center no-repeat;
-}
+} */
