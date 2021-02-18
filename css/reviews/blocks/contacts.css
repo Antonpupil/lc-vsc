@@ -1,0 +1,28 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-style: normal;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.contacts__updown-title {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+}
+
+.contacts__footer {
+    top: 25px;
+}

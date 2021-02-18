@@ -1,0 +1,45 @@
+
+.btn {
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 55px;
+}
+
+.btn__detailed {
+    width: 168px;
+    background: #F5170E;
+    color: white;
+}
+
+.btn__look {
+    display: inline-block;
+    border: 1px solid #F5170E;
+    width: 135px;
+    color: #F5170E;
+    margin-bottom: 25px;
+}
+
+.btn__look_active {
+    background: #F5170E;
+    color: #FFFFFF;
+}
+
+.btn__controls{
+    margin-left: 18px;
+    background-color: #2B2B2B;
+    padding: 0 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn__controls_red{
+    background-color: red;
+}
+
+.btn__controls:hover{
+    background-color: royalblue;
+}

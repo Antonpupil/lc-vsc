@@ -1,0 +1,67 @@
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  width: 557px;
+  background: #f4f5f5;
+  border-radius: 5px;
+  padding: 50px 29px 32px;
+  height: 100%;
+}
+
+.review__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.review__userdata-link {
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+  text-decoration: none;
+}
+
+.review__userdata-link_active {
+  text-decoration: underline;
+  color: #2e77a4;
+}
+.review__userdata-link::after {
+  content: url(../../../img/messangers/vk-blue1.png);
+  margin-left: 7px;
+}
+.review__photo {
+  margin-right: 22px;
+}
+
+.review__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.review__content-text{
+  display: flex;
+}
+
+.review__text{
+  text-align: left;
+  font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 47px;
+}
+
+.review__content-title{
+  margin-bottom: 13px;
+  font-size: 30px;
+line-height: 42px;
+}
+
+.review__date{
+  font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+}
