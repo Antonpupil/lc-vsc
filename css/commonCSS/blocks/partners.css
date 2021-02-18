@@ -14,21 +14,18 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 117px;
 }
 
 .partners__item{
-    margin-left: 20px;
+    margin-bottom: 65px;
 }
-.partners__item:first-child, .partners__item:nth-child(4n+1){
-    margin-left: 0;
-}
+
 
 .partners__title {
     font-weight: bold;
     font-size: 48px;
     line-height: 65px;
-    margin: 7.5% 0;
+    margin: 87px 0 84px 11px;
 }
 
 .partners__link{
