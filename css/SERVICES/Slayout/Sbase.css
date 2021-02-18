@@ -7,10 +7,10 @@ body {
     flex-direction: column; */
 }
 
-html,
+/* html,
 body {
     height: 100%;
-}
+} */
 
 a {
     color: inherit;

@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 412px;
+    background: url(../../../img/services/headline1.png) center no-repeat;
+    padding-bottom: 1%;
+    background-size: cover;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    width: 45%;
+    margin-bottom: 28px;
+}
+
+.hero__title-reviews {
+    margin-bottom: 17px;
+    margin-left: 11px;
+}

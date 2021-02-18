@@ -1,0 +1,30 @@
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 363px;
+  background: url(../../../img/reviews/Rectangle.png) center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.separator__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(../../../img/reviews/couple.png) top 100% right 5% no-repeat;
+  min-height: 363px;
+}
+
+.separator__title {
+  display: flex;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  max-width: 55%;
+}
+
+.separator__img {
+  display: flex;
+}

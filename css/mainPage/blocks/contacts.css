@@ -1,23 +1,23 @@
-.contacts__dropdown-title {
-    font-size: 13px;
-    line-height: 20px;
-    margin: -12px 2px 0;
-    text-decoration: underline;
-}
-
-.contacts {
+.contacts__blocks {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     width: 191px;
     height: 55px;
     text-align: right;
     font-style: normal;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    display: flex;
 }
 
 .contacts__phone {
     font-size: 26px;
     text-decoration: none;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin: -12px 2px 0;
+    text-decoration: underline;
 }
 
 .contacts__updown-title {

@@ -1,0 +1,67 @@
+.tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    min-width: 362px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.tour__header {
+    height: 144px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tour__container {
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.tour__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 33px 22px 21px;
+    color: #000000;
+}
+
+.tour__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 22px;
+}
+
+.tour__icons {
+    margin: 0px 0 20px 5px;
+}
+
+
+.tour__img,
+.tour__text {
+    display: inline-block;
+}
+
+
+.tour__text {
+    font-size: 16px;
+    vertical-align: top;
+    color: #666666;
+    padding-left: 8px;
+    line-height: 26px
+}
+
+.tour__icons-meal {
+    padding-left: 25px;
+}
+
+/* .tour__period {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+} */
+
+
+

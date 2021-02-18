@@ -1,0 +1,11 @@
+.page-contentMain {
+  padding-bottom: 203px;
+}
+
+.page-contentMain__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding-left: 12px;
+}

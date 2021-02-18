@@ -28,3 +28,25 @@
     color: #FFFFFF;
 }
 
+.btn__controls{
+    margin-left: 18px;
+    background-color: #2B2B2B;
+    padding: 0 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn__controls_red{
+    background-color: red;
+}
+
+.btn__controls:hover{
+    background-color: royalblue;
+}
+
+.btn__enter {
+    font-size: 14px;
+    background: #f5170e;
+    padding: 0 58px;
+    color: #FFFFFF;
+  }

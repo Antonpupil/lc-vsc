@@ -1,9 +1,70 @@
-@import url('././mainPage/layout/fonts.css');
+
+@import url('./commonCSS/layout/fonts.css');
+@import url('./commonCSS/layout/normalize.css');
+@import url('./commonCSS/layout/reset.css');
+@import url('./commonCSS/layout/base.css');
+
+@import url('./commonCSS/blocks/wrapper.css');
+@import url('./commonCSS/blocks/wrapperMain.css');
+
+@import url('./commonCSS/blocks/hero.css');
+@import url('./commonCSS/blocks/heroMain.css');
+
+@import url('./commonCSS/blocks/header.css');
+@import url('./commonCSS/blocks/welcome.css');
+
+@import url('./commonCSS/blocks/container.css');
+@import url('./commonCSS/blocks/logo.css');
+@import url('./commonCSS/blocks/logoMain.css');
+
+@import url('./commonCSS/blocks/inner-section.css');
+
+
+@import url('./commonCSS/blocks/menu.css');
+@import url('./commonCSS/blocks/menuMain.css');
+
+@import url('./commonCSS/blocks/common-title.css');
+@import url('./commonCSS/blocks/contacts.css');
+@import url('./commonCSS/blocks/btn.css');
+@import url('./commonCSS/blocks/page-content.css');
+@import url('./commonCSS/blocks/page-contentMain.css');
+
+@import url('./commonCSS/blocks/avatar.css');
+@import url('./commonCSS/blocks/breadcrumps.css');
+@import url('./commonCSS/blocks/central.css');
+
+@import url('./commonCSS/blocks/review.css');
+@import url('./commonCSS/blocks/reviews.css');
+
+
+@import url('./commonCSS/blocks/hot-tours.css');
+@import url('./commonCSS/blocks/tour.css');
+@import url('./commonCSS/blocks/tours.css');
+
+@import url('./commonCSS/blocks/title.css');
+@import url('./commonCSS/blocks/news.css');
+@import url('./commonCSS/blocks/pagination.css');
+@import url('./commonCSS/blocks/about.css');
+
+@import url('./commonCSS/blocks/partners.css');
+@import url('./commonCSS/blocks/separator.css');
+@import url('./commonCSS/blocks/tag.css');
+
+@import url('./commonCSS/blocks/controls.css');
+@import url('./commonCSS/blocks/form.css');
+
+@import url('./commonCSS/blocks/footer.css');
+@import url('./commonCSS/blocks/footerMain.css');
+
+@import url('./commonCSS/blocks/messangers.css');
+
+
+/* @import url('././mainPage/layout/fonts.css');
 @import url('././mainPage/layout/normalize.css');
 @import url('././mainPage/layout/reset.css');
-@import url('././mainPage/layout/base.css');
+@import url('././mainPage/layout/base.css'); */
 
-@import url('././mainPage/blocks/wrapper.css');
+/* @import url('././mainPage/blocks/wrapper.css');
 @import url('././mainPage/blocks/hero.css');
 @import url('././mainPage/blocks/container.css');
 @import url('././mainPage/blocks/logo.css');
@@ -20,7 +81,7 @@
 @import url('././mainPage/blocks/pagination.css');
 @import url('././mainPage/blocks/about.css');
 @import url('././mainPage/blocks/footer.css');
-@import url('././mainPage/blocks/messangers.css');
+@import url('././mainPage/blocks/messangers.css'); */
 
 
 

@@ -1,8 +1,11 @@
-.hero__main {
-    min-height: 769px;
+.heroMain {
+    display: block;
+    min-height: 775px;
+    background: none;
+    padding: 0;
 }
 
-.hero__container{
+.heroMain__container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,20 +14,14 @@
 .hero__content {
     min-height: 333px;
     margin-top: 10%;
+    padding-left: 1%;
 }
 
-.hero__title {
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 98px;
-    width: 45%;
-    margin-bottom: 28px;
-}
 
 .hero__subtitle {
     font-size: 18px;
     font-weight: normal;
-    line-height: 20px;
+    line-height: 24px;
     margin-bottom: 33px;
 }
 

@@ -1,4 +1,4 @@
-.footer__main {
+.footerMain {
   min-height: 150px;
   margin-top: -150px;
 }
@@ -13,4 +13,3 @@
 .footer__col {
   align-items: center;
 }
-
