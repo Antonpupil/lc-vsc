@@ -7,9 +7,15 @@
   flex: 1;
   margin-right: 30px;
   background: #ffffff;
-  border: 1px solid #f5170e;
   border-radius: 5px;
   padding: 20px 30px;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+}
+
+.form__input:focus {
+  border: 1px solid #f5170e;
 }
 
 .form__input__textarea {
@@ -19,19 +25,14 @@
   margin-right: 0;
 }
 
-.form__input {
-  font-size: 18px;
-  line-height: 25px;
-}
-
 .form__input::placeholder {
   color: #666666;
 }
 
-.form__controls{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.form__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .form__controls-title {
   font-size: 18px;
@@ -41,8 +42,8 @@
   margin-top: 16px;
 }
 
-.form__btn{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 96px;
+.form__btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 96px;
 }
