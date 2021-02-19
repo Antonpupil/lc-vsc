@@ -2,6 +2,7 @@
   column-count: 2;
     display: inline-block;
     margin-bottom: 50px;
+    height: auto;
 }
 
 .reviews__item{

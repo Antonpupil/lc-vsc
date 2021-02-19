@@ -3,6 +3,7 @@
     flex-direction: column;
     min-height: 100%;
     background: #F2F2F2;
+    overflow: hidden;
 }
 
 .wrapper__review{
