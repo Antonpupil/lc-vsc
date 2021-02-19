@@ -11,11 +11,13 @@
   padding: 20px 30px;
   font-size: 18px;
   line-height: 25px;
-  border: none;
+  border: 1px solid #ffffff;
+  outline: none;
 }
 
 .form__input:focus {
   border: 1px solid #f5170e;
+  border-radius: 5px;
 }
 
 .form__input__textarea {
