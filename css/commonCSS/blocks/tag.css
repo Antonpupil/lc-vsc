@@ -13,4 +13,5 @@
 
 .tag:hover{
   background-color: royalblue;
+  cursor: pointer;
 }

@@ -1,8 +1,11 @@
 .messangers {
-    width: 190px;
     font-size: 0;
     display: flex;
     justify-content: center;
+    
+}
+.messangers__container{
+    width: 190px;
     margin-right: 70px;
 }
 

@@ -31,6 +31,10 @@
   text-decoration: none;
   color: #1a1b1e;
 }
+.review__userdata-link:hover {
+  color: #DA0100;
+  text-decoration: none;
+}
 
 .review__userdata-link_active {
   text-decoration: underline;
