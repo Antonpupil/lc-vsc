@@ -34,4 +34,10 @@
     text-decoration: none;
     width: 277px;
     height: 70px;
+    filter: grayscale(1);
+}
+
+.partners__link:hover{
+    filter: grayscale(0);
+    transition: filter 0.7s;
 }
