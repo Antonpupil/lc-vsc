@@ -5,6 +5,9 @@
 
 .hot-tours__header{
     margin-bottom: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* .hot-tours__item {
