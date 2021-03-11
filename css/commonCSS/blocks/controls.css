@@ -1,10 +1,12 @@
 .controls{
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     flex: 1;
     margin-bottom: 20px;
+    background: transparent;
 }
 .controls__elem{
     cursor: pointer;
